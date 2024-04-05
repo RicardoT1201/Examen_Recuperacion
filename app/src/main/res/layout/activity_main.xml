@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/btnAddTip"
-        android:layout_above="@id/btnCalculateTip"
-        android:padding="16dp"/>
+        android:layout_alignParentBottom="true"
+        android:padding="16dp" />
 
 </RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/txtTotalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Propinas:"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/txtNumEmployees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="24sp"
+        android:layout_below="@id/txtTotalAmount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/btnIncreaseEmployees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mas empleados"
+        android:layout_below="@id/txtNumEmployees"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"/>
+
+    <Button
+        android:id="@+id/btnDecreaseEmployees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="menos empleados"
+        android:layout_below="@id/txtNumEmployees"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp"/>
+
+    <TextView
+        android:id="@+id/txtAmountPerEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Propina por empleado:"
+        android:textSize="18sp"
+        android:layout_below="@id/btnIncreaseEmployees"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+</RelativeLayout>
